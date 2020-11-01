@@ -57,27 +57,12 @@
     "viewerSummary": "",
     "viewerUrl": "",
     "viewerUrls": {
-      "videoOverlay": "https://localhost:8080/video_overlay.html",
-      "component": "https://localhost:8080/video_component.html"
+      "videoOverlay": "https://localhost:8080/video_overlay.html"
     },
     "views": {
       "videoOverlay": {
         "viewerUrl": "https://localhost:8080/video_overlay.html",
         "canLinkExternalContent": false
-      },
-      "component": {
-        "viewerUrl": "https://localhost:8080/video_component.html",
-        "aspectWidth": 0,
-        "aspectHeight": 0,
-        "aspectRatioX": 300,
-        "aspectRatioY": 200,
-        "scalePixels": 1024,
-        "targetHeight": 4000,
-        "size": 0,
-        "zoom": false,
-        "zoomPixels": 0,
-        "canLinkExternalContent": false,
-        "autoScale": true
       },
       "config": {
         "viewerUrl": "https://localhost:8080/config.html",

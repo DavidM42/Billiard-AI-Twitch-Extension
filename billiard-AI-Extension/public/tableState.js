@@ -11,7 +11,7 @@ window.addEventListener('load', () => {
     
     const updateState = async () => {
         try {
-            const result = await fetch('http://merzlabs.de:9999/tableState');
+            const result = await fetch('/tableState');
             const json = await result.json();
             // console.log(json);
     
