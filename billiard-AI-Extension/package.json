@@ -1,0 +1,25 @@
+{
+  "name": "billiard-ai-extension",
+  "version": "0.0.1",
+  "description": "This extension serves to show the count of ball per team in game as a video overlay in twitch streams",
+  "main": "index.js",
+  "scripts": {
+    "cert": "node bin/generate_cert.js server"
+  },
+  "keywords": [
+    "twitch",
+    "extension"
+  ],
+  "author": "DavidM42",
+  "license": "MIT",
+  "dependencies": {
+    "boom": "^7.2.0",
+    "color": "^3.0.0",
+    "commander": "^2.15.0",
+    "hapi": "^17.2.2",
+    "inert": "^5.1.0",
+    "jsonwebtoken": "^8.2.0",
+    "request": "^2.85.0",
+    "selfsigned": "^1.10.2"
+  }
+}

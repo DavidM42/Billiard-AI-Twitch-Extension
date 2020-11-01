@@ -1,0 +1,16 @@
+body {
+    background-color: rgba(255, 255, 255, 0.0) !important;
+}
+
+.content {
+    position: fixed;
+    left: 50%;
+    bottom: 12px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+
+.ballSvg {
+    width: 90px;
+    /* width: 15% */
+}

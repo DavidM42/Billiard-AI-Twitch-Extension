@@ -1,0 +1,118 @@
+{
+  "allowHttpBackend": false,
+  "backendCommand": "node backend -c \"\" -s \"\"",
+  "backendFolderName": "extension-getting-started/services",
+  "certificateExceptions": [],
+  "extensionViews": [
+    {
+      "channelId": "79183065",
+      "configurationAnchor": "video_overlay",
+      "displayChannelName": "meisterd1",
+      "features": {
+        "isBitsEnabled": false,
+        "isChatEnabled": false,
+        "isSubscriptionStatusAvailable": false
+      },
+      "frameSize": {
+        "width": 1280,
+        "height": 720
+      },
+      "id": "1",
+      "isPopout": false,
+      "label": "BillardOverlay",
+      "linked": false,
+      "linkedUserId": "",
+      "orientation": "Portrait",
+      "type": "video_overlay",
+      "viewerType": "Logged-Out Viewer"
+    },
+    {
+      "channelId": "79183065",
+      "configurationAnchor": "video_overlay",
+      "displayChannelName": "meisterd1",
+      "features": {
+        "isBitsEnabled": false,
+        "isChatEnabled": false,
+        "isSubscriptionStatusAvailable": false
+      },
+      "frameSize": {
+        "width": 1600,
+        "height": 900
+      },
+      "id": "2",
+      "isPopout": false,
+      "label": "ComponentView",
+      "linked": false,
+      "linkedUserId": "",
+      "orientation": "Portrait",
+      "type": "component",
+      "viewerType": "Logged-In Viewer"
+    }
+  ],
+  "manifest": {
+    "anchor": "video_overlay",
+    "assetUrls": [],
+    "authorName": "Meisterd1",
+    "bitsEnabled": false,
+    "canInstall": true,
+    "configUrl": "https://localhost:8080/config.html",
+    "configurationLocation": "none",
+    "description": "",
+    "eulaTosUrl": "",
+    "hasChatSupport": false,
+    "iconUrl": "",
+    "iconUrls": {},
+    "id": "r3rnr5r2ck5cw30hqxljnh8jwp53tx",
+    "installationCount": -42,
+    "liveConfigUrl": "",
+    "name": "BillardTableStatus",
+    "panelHeight": 0,
+    "privacyPolicyUrl": "",
+    "requestIdentityLink": false,
+    "requiredBroadcasterAbilities": [],
+    "screenshotUrls": [],
+    "sku": "",
+    "state": "Testing",
+    "subscriptionsSupportLevel": "none",
+    "summary": "",
+    "supportEmail": "masterd@ich-will-net.de",
+    "vendorCode": "",
+    "version": "0.0.1",
+    "viewerSummary": "",
+    "viewerUrl": "",
+    "viewerUrls": {
+      "videoOverlay": "https://localhost:8080/video_overlay.html",
+      "component": "https://localhost:8080/video_component.html"
+    },
+    "views": {
+      "videoOverlay": {
+        "viewerUrl": "https://localhost:8080/video_overlay.html",
+        "canLinkExternalContent": false
+      },
+      "component": {
+        "viewerUrl": "https://localhost:8080/video_component.html",
+        "aspectWidth": 0,
+        "aspectHeight": 0,
+        "aspectRatioX": 300,
+        "aspectRatioY": 200,
+        "scalePixels": 1024,
+        "targetHeight": 4000,
+        "size": 0,
+        "zoom": false,
+        "zoomPixels": 0,
+        "canLinkExternalContent": false,
+        "autoScale": true
+      },
+      "config": {
+        "viewerUrl": "https://localhost:8080/config.html",
+        "canLinkExternalContent": false
+      }
+    },
+    "whitelistedConfigUrls": [],
+    "whitelistedPanelUrls": []
+  },
+  "frontendCommand": "",
+  "frontendFolderName": "extension-getting-started/public",
+  "name": "BillardTableStatus",
+  "version": 2
+}
