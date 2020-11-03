@@ -1,0 +1,18 @@
+body {
+    background-color: rgba(255, 255, 255, 0.0) !important;
+}
+
+.content {
+    background-color: rgba(33, 33, 33, 0.3);
+    border-radius: 7px;
+    position: fixed;
+    left: 50%;
+    bottom: 5px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+
+.ballSvg {
+    width: 90px;
+    /* width: 15% */
+}
